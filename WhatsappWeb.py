@@ -8,8 +8,7 @@ w = webdriver.Chrome(executable_path="/Users/alkan/PycharmProjects/untitled5/dri
 
 w.get("https://web.whatsapp.com/")
 
-name = "Bitanemm❤️"
-name = "Efe"
+name = input('Enter the name : ')
 msg = input('Enter the message : ')
 count = int(input('Enter the count : '))
 
