@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+#driver init
 options = webdriver.ChromeOptions()
 options.add_argument("user-data-dir=/Users/alkan/Library/Application Support/Google/Chrome")
 options.add_argument("profile-directory=Default")
